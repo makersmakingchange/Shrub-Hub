@@ -1,0 +1,51 @@
+Device:,Shrub Hub,,,,,,,,,,,,
+Version:, V1.0,,,,,,,,,,,,
+Last Updated:,2025-07-23,,,,,,,,,,,,
+,,,,,,,,Total filament (g),,Unit Cost,Total Estimated Cost,Build Cost,
+,,,,,,,,10,, $27.51 , $33.33 ,,
+ID,Commercial Parts,,,,,,,,, $27.26 , $33.08 ,,
+,Part,Description,,Manufacturer,Supplier,QTY / Device,QTY / PKG,PKGs,$/ PKG,$ / Device,Total Estimated Cost,,Link
+,TRRS Trinkey,Trinkey Microcontroller,,,,1,1,1, $14.50 , $14.50 , $14.50 ,,https://www.digikey.ca/en/products/detail/adafruit-industries-llc/5954/24614902
+,Light Pipe,Transparent Light Pipe,,,,1,1,1, $1.57 , $1.57 , $1.57 ,,https://www.digikey.ca/en/products/detail/dialight/51513030250F/4965201 
+,TRRS Terminal,TRRS Terminal Jack,,,,1,2,1, $6.58 , $3.29 , $6.58 ,,amazon.ca/dp/B0B4PD2R5G
+,Mono Cable,Pre Stripped Mono Cable,,,,3,4,1, $10.11 , $7.58 , $10.11 ,,amazon.ca/dp/B0BZWK7PLP
+,Cable Tie,Small cable tie,,,,2,1,2, $0.16 , $0.32 , $0.32 ,,https://www.digikey.ca/en/products/detail/3m/CT4NT18-M/2721151
+,,,,,,,,,,,,,
+,3D Printed Parts,,,,,,,10,, $0.25 , $0.25 ,,
+,Part,Description,Filament Type,Filament,Color,QTY / Device,Mass (g) / Part,Total Mass,$ / kg,$ / Device,Total Estimated Cost,,Link
+,Shrub Hub Base.stl,Bottom of enclosure,PLA,,Any,1,3,3, $25.00 , $0.08 , $0.08 ,,
+,Shrub Hub Lid.stl,Top of enclosure,PLA,,Any,1,2,2, $25.00 , $0.05 , $0.05 ,,
+,Strain Relief Bottom.stl,Bottom of strain relief,PLA,,Any,1,3,3, $25.00 , $0.08 , $0.08 ,,
+,Strain Relief Top.stl,Top of strain relief,PLA,,Any,1,2,2, $25.00 , $0.05 , $0.05 ,,
+,,,,,,,,0,, $-   , $-   ,,
+,,,,,,,,0,, $-   , $-   ,,
+,,,,,,,,0,, $-   , $-   ,,
+,,,,,,,,0,, $-   , $-   ,,
+,Custom PCB,,,,,,,,, $-   , $-   ,,
+,Part,Description,,Manufacturer,Supplier,QTY / Device,QTY / PKG,PKGs,$/ PKG,$ / Device,Total Estimated Cost,,Link
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,Tools,,,,,,,,,,,,
+,Tool,Description,,Manufacturer,Supplier,,,,,,,,Link
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,Alternatives,,,,,,,,,,,,
+,Part,Description,,Manufacturer,Supplier,QTY / Device,QTY / PKG,PKGs,$/ PKG,$ / Device,Total Estimated Cost,,Link
+,TRRS Trinkey,,,Adafruit,Mouser,1,1,1, $15.17 , $15.17 ,,,https://www.mouser.ca/ProductDetail/Adafruit/5954?qs=wT7LY0lnAe2DcfdqLcHAgA%3D%3D
+,TRRS Trinkey,,,Adafruit,Adafruit,1,1,1, $13.62 , $13.62 ,,Ships from US,https://www.adafruit.com/product/5954
+,Microphone Splitter,,,Halokny,Amazon,1,2,1, $8.99 , $4.50 ,,,amazon.ca/dp/B07GP4QTHM
+,TRRS Terminal,,,Adafruit,Digikey,1,1,1, $3.64 , $3.64 ,,,https://www.digikey.ca/en/products/detail/adafruit-industries-llc/2914/7241507?gad_source=1&gad_campaignid=20222764947&gbraid=0AAAAADrbLlg_Z3GS93N9m1M2bsmETTJD5&gclid=Cj0KCQjwm93DBhD_ARIsADR_DjE3O3O-BtLrvUKyTJsVo8CQXrkEkJNNlKURLMyeKt5K20KrGCMyLJYaAgEGEALw_wcB&gclsrc=aw.ds
+,TRRS Terminal,,,GLARKS,Amazon,1,8,1, $14.93 , $14.93 ,,,amazon.ca/dp/B07KF8SRC3/
+,Mono Cable,,,Fancasee,Amazon,3,10,1, $20.22 , $20.22 ,,,amazon.ca/dp/B082VW97TT
+,Mono Cable,,,Adafruit,Digikey,3,1,3, $2.84 , $8.52 ,,,https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4182/10230000
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,

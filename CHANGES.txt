@@ -1,0 +1,9 @@
+Version 1.0 | 2025-07-16
+ - Initial Prototype
+ - Modified software to include different operational modes
+ - Created alternate, cheaper switch splitter
+
+
+
+
+

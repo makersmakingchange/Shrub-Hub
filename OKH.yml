@@ -1,0 +1,54 @@
+title: Shrub Hub
+description: The Shrub Hub is a low cost digital switch interface that takes up to 3 3.5mm
+  assistive switches and can output up to 5 different keystrokes to the
+  connected device.
+intended-use: The Shrub Hub is intended to allow a user to control their computer or digital
+  device using three assistive switches.
+project-link: https://github.com/makersmakingchange/Shrub-Hub
+image: https://github.com/makersmakingchange/Shrub-Hub/tree/master/Photos/Glade_Hub.jpg
+made: true
+made-independently: false
+license:
+  documentation: CERN-OHL-W-2.0
+  software: MIT
+licensor:
+  name: Jake McIvor
+  affiliation: Neil Squire Society
+  email: jakem@neilsquire.ca
+okh-manifest-version: 1.0.0
+date-updated: 2025-07-17
+manifest-author:
+  name: Brad Wellington
+  affiliation: Neil Squire Society
+  email: bradw@neilsquire.ca
+manifest-language: en-CA
+contributors:
+  - name: Chris Young
+  - name: Bill Binko
+version: "1.0"
+development-stage: product
+documentation-home: https://github.com/makersmakingchange/Shrub-Hub
+archive-download: https://github.com/makersmakingchange/Shrub-Hub/archive/refs/heads/main.zip
+bom: https://github.com/makersmakingchange/Shrub-Hub/tree/master/Documentation/Shrub_Hub_BOM.csv
+tool-list: https://github.com/makersmakingchange/Shrub-Hub/tree/master/Documentation/Shrub_Hub_Maker_Guide.pdf
+making-instructions:
+  - path: https://github.com/makersmakingchange/Shrub-Hub/tree/master/Documentation/Shrub_Hub_Maker_Guide.pdf
+    title: Shrub Hub Maker Guide
+manufacturing-files:
+  - path: https://github.com/makersmakingchange/Shrub-Hub/tree/master/Build_Files/3D_Printing_Files
+    title: 3D Printed Enclosure Files
+operating-instructions:
+  - path: https://github.com/makersmakingchange/Shrub-Hub/tree/master/Documentation/Shrub_Hub_User_Guide.pdf
+    title: Shrub Hub User Guide
+maintenance-instructions:
+  - path: https://github.com/makersmakingchange/Shrub-Hub/tree/master/Documentation/Shrub_Hub_User_Guide.pdf
+    title: Shrub Hub User Guide
+disposal-instructions:
+  - path: https://github.com/makersmakingchange/Shrub-Hub/tree/master/Documentation/Shrub_Hub_User_Guide.pdf
+    title: Shrub Hub User Guide
+software:
+  - path: https://github.com/makersmakingchange/Shrub-Hub/tree/master/Build_Files/Firmware_Files/TRRS_Switch_Control
+    title: Shrub Hub Firmware
+derivative-of:
+  title: Using the TRRS Trinkey as an Assistive Technology Device
+  web: https://learn.adafruit.com/using-the-trrs-trinkey-as-an-assistive-technology-device/introduction
