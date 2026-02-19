@@ -20,16 +20,19 @@ Any text that is currently holding a space / is an instruction for the person fi
 
 ## Overview
 <!--- A brief summary of the project. What it does, who it is for, how much it costs. --->
-The Shrub Hub is an assistive technology device that allows a user to connect up to three assistive switches, and send four sets of five keystrokes to a connected digital device such as a computer or mobile phone. 
+The Shrub Hub is an digital switch interface that allows a user to connect up to three 3.5mm assistive switches to a digital device like a computer or mobile phone. It has five modes, and can send keystrokes, mouse clicks, and media control commands, with five outputs per mode. It is designed to provide digital access to users using assistive switches, and to be low cost and very easy to build.
 
-<MODIFY LINE AS NECESSARY> The device is comprised of off-the-shelf electronics and 3D printed parts. 
+It is designed for use by those who have difficulty using traditional input devices like a computer mouse and may be especially useful for those with limited finger or hand dexterity.
+
+<MODIFY LINE AS NECESSARY> The device is comprised of off-the-shelf electronics and 3D printed parts. There is no soldering or complicated assembly involved in building the device.
 
 The Shrub Hub is open assistive technology (OpenAT). Under the terms of the open source licenses, the device may be built, used, and improved upon by anyone.
 
 The overall cost of materials is about $35 (plus $8 for component shipping).
 
-<img src="Photos/Shrub_Hub.jpg" width="500" alt="Picture of Shrub Hub.">
-
+<img src="Photos/Shrub_Hub.jpg" height="500" alt="Picture of Shrub Hub .">
+<img src="Photos/Shrub_Hub_Switch_Adapter.jpg" height="500" alt="Picture of Shrub Hub with the Switch Adapter.">
+<img src="Photos/Shrub_Hub_Output_Table.png" height="500" alt="Table of Shrub Hub outputs.">
 
 ## Makers Making Change Assistive Device Library
 <MMCWebLink>
@@ -53,7 +56,7 @@ If you have the skills and equipment to build this device, and would like to don
 
 ### 1. Read through the Maker Guide
 
-The [Maker Guide](/Documentation/Shrub_Hub_Maker_Guide.pdf)  contains all the necessary information to build this device, including tool lists, assembly instructions, programming instructions (if applicable) and testing.
+The [Maker Guide](/Documentation/Shrub_Hub_Maker_Guide.pdf)  contains all the necessary information to build this device, including tool lists, assembly instructions, programming instructions and testing.
 
 
 ### 2. Order the Off-The-Shelf Components
@@ -75,13 +78,15 @@ As open source assistive technology, you are welcomed and encouraged to improve 
 ## Files
 ### Documentation
 <!--- Update the name, link, and version for documentation --->
-| Document             | Version | Link |
-|----------------------|---------|------|
-| Design Rationale     | 1.0     | [Shrub_Hub_Design_Rationale](/Documentation/Shrub_Hub_Design_Rationale.pdf)     |
-| Maker Guide          | 1.0     | [Shrub_Hub_Maker_Guide](/Documentation/Shrub_Hub_Maker_Guide.pdf)     |
-| Bill of Materials    | 1.0     | [Shrub_Hub_Bill_of_Materials](/Documentation/Working_Documents/Shrub_Hub_BOM.xlsx)     |
-| User Guide           | 1.0     | [Shrub_Hub_User_Guide](/Documentation/Shrub_Hub_User_Guide.pdf)    |
-| Changelog            | 1.0     | [Changelog](CHANGES.txt)     |
+| Document              | Version | Link |
+|-----------------------|---------|------|
+| Design Rationale      | 1.0     | [Shrub_Hub_Design_Rationale](/Documentation/Shrub_Hub_Design_Rationale.pdf)     |
+| Maker Guide           | 1.0     | [Shrub_Hub_Maker_Guide](/Documentation/Shrub_Hub_Maker_Guide.pdf)     |
+| Bill of Materials     | 1.0     | [Shrub_Hub_Bill_of_Materials](/Documentation/Working_Documents/Shrub_Hub_BOM.xlsx)     |
+| User Guide            | 1.0     | [Shrub_Hub_User_Guide](/Documentation/Shrub_Hub_User_Guide.pdf)    |
+| Quickstart Guide      | 1.0     | [Shrub_Hub_Quickstart_Guide](/Documentation/Shrub_Hub_Quickstart_Guide.pdf)    |
+| Changing Outputs Guide| 1.0     | [Shrub_Hub_Changing_Outputs_Guide](/Documentation/Shrub_Hub_Changing_Outputs_Guide.pdf)    |
+| Changelog             | 1.0     | [Changelog](CHANGES.txt)     |
 
 ### Design Files
 <!--- Include a copy of the original design files to facilitate easy editing and customization. Consider also including a generic format (e.g., STEP) --->
@@ -95,11 +100,11 @@ As open source assistive technology, you are welcomed and encouraged to improve 
 
 ## License
 <!--- Add the year(s) for the copyright and the Designer Name. You may use the standard set of open licenses or choose your own for the hardware, software, and accompanying materials. --->
-Copyright (c) 2025 Neil Squire Society.
+Copyright (c) 2026 Neil Squire Society.
 
 This repository describes Open Hardware:
  - Everything needed or used to design, make, test, or prepare the Shrub Hub is licensed under the [CERN 2.0 Weakly Reciprocal license (CERN-OHL-W v2) or later](https://cern.ch/cern-ohl ) .
- - All software is under the [MIT License](https://opensource.org/license/mit).
+ - All software is under the [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl.html).
  - Accompanying material such as instruction manuals, videos, and other copyrightable works that are useful but not necessary to design, make, test, or prepare the Shrub Hub are published under a [Creative Commons Attribution-ShareAlike 4.0 license (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) .
 
 You may redistribute and modify this documentation and make products using it under the terms of the [CERN-OHL-W v2](https://cern.ch/cern-ohl).
@@ -112,20 +117,34 @@ Source Location: https://github.com/makersmakingchange/Shrub-Hub
 <!--- Provide any necessary attribution for designs or components that are included in the device or as part of the project. --->
 The device was designed by Neil Squire Society. 
 
+The Shrub Hub is built using the following commercially available open-source hardware components:
+ - [Adafruit TRRS Trinkey - USB Key for Assistive Technology](https://www.adafruit.com/product/5954). The PCB design is available under a CC-BY-SA 3.0 license at https://github.com/adafruit/Adafruit-TRRS-Trinkey-PCB. It is certified as open hardware with the Open Source Hardware Association (OSHWA) as [US002639](https://certification.oshwa.org/us002639.html).
+
+The Shrub Hub is programmed in [CircuitPython](https://circuitpython.org/) using the [Mu Python Editor](https://codewith.mu/).
+
 <!--- This is the attribution for the template. --->
 The documentation template was created by Makers Making Change / Neil Squire Society and is used under a CC BY-SA 4.0 license. It is available at the following link: [https://github.com/makersmakingchange/OpenAT-Template](https://github.com/makersmakingchange/OpenAT-Template)
 
 ### Contributors
 <!--- List the names of the people that contributed to the design. This could include the original source of the idea, designers, testers, documenters, etc. --->
 Designers:
- - Brad Wellington
- - Chris Young
- - Bill Binko
+ - Shrub Hub:
+    - Brad Wellington, Neil Squire Society / Makers Making Change.
+ - Original TRRS Switch Control Device:
+    - Chris Young
+    - Bill Binko
+ 
+ Testers:
+ - Jake McIvor, Neil Squire Society / Makers Making Change.
+ - Josie Versloot, Neil Squire Society / Makers Making Change.
+ - Stephan Dobri, Neil Squire Society / Makers Making Change.
+ - Jody Dickerson, Neil Squire Society / Solutions
+ - Eric Chau, Neil Squire Society / Solutions
 
 ---
 
+<!-- ABOUT MMC START -->
 ## About Makers Making Change
-<!--- This is standard boilerplate for Makers Making Change. No changes should be required. --->
 [<img src="https://raw.githubusercontent.com/makersmakingchange/makersmakingchange/main/img/mmc_logo.svg" width="500" alt="Makers Making Change Logo">](https://www.makersmakingchange.com/)
 
 Makers Making Change is a program of [Neil Squire](https://www.neilsquire.ca/), a Canadian non-profit that uses technology, knowledge, and passion to empower people with disabilities.
@@ -134,7 +153,7 @@ Makers Making Change leverages the capacity of community based Makers, Disabilit
 
  - Website: [www.MakersMakingChange.com](https://www.makersmakingchange.com/)
  - GitHub: [makersmakingchange](https://github.com/makersmakingchange)
- - X (formerly Twitter): [@makermakechange](https://twitter.com/makermakechange)
+ - Bluesky: [@makersmakingchange.bsky.social](https://bsky.app/profile/makersmakingchange.bsky.social)
  - Instagram: [@makersmakingchange](https://www.instagram.com/makersmakingchange)
  - Facebook: [makersmakechange](https://www.facebook.com/makersmakechange)
  - LinkedIn: [Neil Squire Society](https://www.linkedin.com/company/neil-squire-society/)
@@ -143,3 +162,4 @@ Makers Making Change leverages the capacity of community based Makers, Disabilit
 
 ### Contact Us
 For technical questions, to get involved, or to share your experience we encourage you to [visit our website](https://www.makersmakingchange.com/) or [contact us](https://www.makersmakingchange.com/s/contact).
+<!-- ABOUT MMC END -->

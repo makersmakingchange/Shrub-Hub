@@ -1,4 +1,16 @@
-Version 1.0 | 2025-07-16
+Version 1.0 | 2026-01-12
+ - Changed the code to allow the device to work without the Switch Adapter using a single switch
+
+Version 0.2 | 2025-11-04
+ - Updated enclosure based on user feedback
+	- Made it easier to find the reset button
+	- Made it easier to grip the enclosure to unplug it
+	- Added a connector between the Shrub Hub and Switch Adaptor 
+ - Removed 1-5 mode
+ - Added mouse clicks and media control
+ - Made mode persistent between reboots
+
+Version 0.1 | 2025-07-16
  - Initial Prototype
  - Modified software to include different operational modes
  - Created alternate, cheaper switch splitter

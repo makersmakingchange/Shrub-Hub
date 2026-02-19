@@ -3,9 +3,9 @@ description: The Shrub Hub is a low cost digital switch interface that takes up 
   assistive switches and can output up to 5 different keystrokes to the
   connected device.
 intended-use: The Shrub Hub is intended to allow a user to control their computer or digital
-  device using three assistive switches.
+  device using up to three assistive switches.
 project-link: https://github.com/makersmakingchange/Shrub-Hub
-image: https://github.com/makersmakingchange/Shrub-Hub/tree/master/Photos/Glade_Hub.jpg
+image: https://github.com/makersmakingchange/Shrub-Hub/tree/master/Photos/Shrub_Hub_Three.jpg
 made: true
 made-independently: false
 license:
@@ -16,15 +16,15 @@ licensor:
   affiliation: Neil Squire Society
   email: jakem@neilsquire.ca
 okh-manifest-version: 1.0.0
-date-updated: 2025-07-17
+date-updated: 2026-01-16
 manifest-author:
   name: Brad Wellington
   affiliation: Neil Squire Society
   email: bradw@neilsquire.ca
 manifest-language: en-CA
 contributors:
-  - name: Chris Young
-  - name: Bill Binko
+  - name: Brad Wellington
+  - name: Jake McIvor
 version: "1.0"
 development-stage: product
 documentation-home: https://github.com/makersmakingchange/Shrub-Hub
@@ -52,3 +52,5 @@ software:
 derivative-of:
   title: Using the TRRS Trinkey as an Assistive Technology Device
   web: https://learn.adafruit.com/using-the-trrs-trinkey-as-an-assistive-technology-device/introduction
+  title: Adafruit TRRS Trinkey
+  web: https://www.adafruit.com/product/5954?srsltid=AfmBOoru8qUpK_Pa6sQZOzy4m6NZ7P_djS8uDiF8Lc1tyeWTpZD2R7__
