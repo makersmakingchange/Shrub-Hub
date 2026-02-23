@@ -18,13 +18,16 @@ Any text that is currently holding a space / is an instruction for the person fi
 # Shrub Hub
 <!--- Should match the name of the GitHub repository. Choose something descriptive rather than whimsical.  --->
 
+> [!IMPORTANT]
+2026-02-20 This device is undergoing final user and maker validation testing before being added to the [Makers Making Change Assistive Device Library](https://www.makersmakingchange.com/assistive-devices). All of the information required to build the device is available in the repository, but it is not yet available to be requested as a volunteer maker build. 
+
 ## Overview
 <!--- A brief summary of the project. What it does, who it is for, how much it costs. --->
 The Shrub Hub is an digital switch interface that allows a user to connect up to three 3.5mm assistive switches to a digital device like a computer or mobile phone. It has five modes, and can send keystrokes, mouse clicks, and media control commands, with five outputs per mode. It is designed to provide digital access to users using assistive switches, and to be low cost and very easy to build.
 
 It is designed for use by those who have difficulty using traditional input devices like a computer mouse and may be especially useful for those with limited finger or hand dexterity.
 
-<MODIFY LINE AS NECESSARY> The device is comprised of off-the-shelf electronics and 3D printed parts. There is no soldering or complicated assembly involved in building the device.
+The device is comprised of off-the-shelf electronics and 3D printed parts. There is no soldering or complicated assembly involved in building the device.
 
 The Shrub Hub is open assistive technology (OpenAT). Under the terms of the open source licenses, the device may be built, used, and improved upon by anyone.
 
@@ -44,9 +47,13 @@ This is an open-source assistive technology, so anyone is free to build it. All 
 
 ### 2. Request a build of this device
 
+> [!NOTE]
+This device will be available for request as a volunteer maker build after final user validation is complete.
+
 You may also submit a build request through the [Makers Making Change Assistive Device Library Listing](<MMCWebLink>) to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
 
 ### 3. Build this device for someone else
+
 
 If you have the skills and equipment to build this device, and would like to donate your time to create the device for someone who needs it, visit the [MMC Maker Wanted](https://makersmakingchange.com/maker-wanted/) section.
 
