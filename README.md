@@ -33,8 +33,8 @@ The Shrub Hub is open assistive technology (OpenAT). Under the terms of the open
 
 The overall cost of materials is about $35 (plus $8 for component shipping).
 
-<img src="Photos/Shrub_Hub.jpg" height="500" alt="Picture of Shrub Hub .">
-<img src="Photos/Shrub_Hub_Switch_Adapter.jpg" height="500" alt="Picture of Shrub Hub with the Switch Adapter.">
+<img src="Photos/Shrub_Hub.jpg" height="500" alt="A Shrub Hub digital assistive switch interface consisting of a 3D printed enclosure with a USB-A connection on one end and a TRRS jack on the other.">
+<img src="Photos/Shrub_Hub_Switch_Adapter.jpg" height="500" alt="A Shrub Hub with a 3-to-1 Switch Adapter attached to the TRRS connection on the Shrub Hub. The Switch Adapter has three cables attached, each with a 3.5 mm mono jack for connecting an assistive switch.">
 <img src="Photos/Shrub_Hub_Output_Table.png" height="500" alt="Table of Shrub Hub outputs.">
 
 ## Makers Making Change Assistive Device Library
@@ -121,33 +121,28 @@ Please see the CERN-OHL-W v2 for applicable conditions.
 Source Location: https://github.com/makersmakingchange/Shrub-Hub 
 
 ## Attribution
-<!--- Provide any necessary attribution for designs or components that are included in the device or as part of the project. --->
-The device was designed by Neil Squire Society. 
+The Shrub Hub enclosure, software, and documentation was designed and created by the Neil Squire Society. 
 
-The Shrub Hub is built using the following commercially available open-source hardware components:
- - [Adafruit TRRS Trinkey - USB Key for Assistive Technology](https://www.adafruit.com/product/5954). The PCB design is available under a CC-BY-SA 3.0 license at https://github.com/adafruit/Adafruit-TRRS-Trinkey-PCB. It is certified as open hardware with the Open Source Hardware Association (OSHWA) as [US002639](https://certification.oshwa.org/us002639.html).
+The Shrub Hub incorporates the [Adafruit TRRS Trinkey - USB Key for Assistive Technology](https://www.adafruit.com/product/5954), a commercially available open source hardware device available for purchase through Adafruit and its distributors worldwide. The design of the TRRS Trinkey was a collaboration between [ATMakers.org](https://atmakers.org/) and [Adafruit](https://www.adafruit.com/). The hardware design files are released under the CC-BY-SA 3.0 license and are available at https://github.com/adafruit/Adafruit-TRRS-Trinkey-PCB. This device is also certified open hardware by the Open Source Hardware Association (OSHWA), certification [US002639](https://certification.oshwa.org/us002639.html).
 
 The Shrub Hub is programmed in [CircuitPython](https://circuitpython.org/) using the [Mu Python Editor](https://codewith.mu/).
 
 <!--- This is the attribution for the template. --->
-The documentation template was created by Makers Making Change / Neil Squire Society and is used under a CC BY-SA 4.0 license. It is available at the following link: [https://github.com/makersmakingchange/OpenAT-Template](https://github.com/makersmakingchange/OpenAT-Template)
+The documentation template was created by Makers Making Change / Neil Squire Society. It is available at the following link: [https://github.com/makersmakingchange/OpenAT-Template](https://github.com/makersmakingchange/OpenAT-Template)
 
 ### Contributors
 <!--- List the names of the people that contributed to the design. This could include the original source of the idea, designers, testers, documenters, etc. --->
-Designers:
- - Shrub Hub:
-    - Brad Wellington, Neil Squire Society / Makers Making Change.
- - Original TRRS Switch Control Device:
-    - Chris Young
-    - Bill Binko
+ - Brad Wellington. Shrub Hub Enclosure, firmware, documentation. Neil Squire Society / Makers Making Change.
+ - Bill Binko. TRRS Trinkey PCB design and Learning Guide. [ATMakers.org](https://atmakers.org/).
+ - Chris Young. TRRS Trinkey PCB Design. [ATMakers.org](https://atmakers.org/).
+ - Eric Chau. Testing. Neil Squire Society / Solutions.
+ - Jake McIvor. Documentation, testing. Neil Squire Society / Makers Making Change.
+ - Limor Fried. TRRS Trinkey PCB Design. [Adafruit](https://www.adafruit.com/).
+ - Liz Clark. TRRS Trinkey Learning Guide. [Adafruit](https://www.adafruit.com/).
+ - Jody Dickerson. Testing. Neil Squire Society / Solutions.
+ - Josie Versloot. Testing. Neil Squire Society / Makers Making Change.
+ - Stephan Dobri. Testing. Neil Squire Society / Makers Making Change.
  
- Testers:
- - Jake McIvor, Neil Squire Society / Makers Making Change.
- - Josie Versloot, Neil Squire Society / Makers Making Change.
- - Stephan Dobri, Neil Squire Society / Makers Making Change.
- - Jody Dickerson, Neil Squire Society / Solutions
- - Eric Chau, Neil Squire Society / Solutions
-
 ---
 
 <!-- ABOUT MMC START -->
