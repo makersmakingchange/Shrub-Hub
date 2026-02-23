@@ -143,6 +143,13 @@ The documentation template was created by Makers Making Change / Neil Squire Soc
  - Josie Versloot. Testing. Neil Squire Society / Makers Making Change.
  - Stephan Dobri. Testing. Neil Squire Society / Makers Making Change.
  
+## Open Source Hardware Certification
+
+The Shrub Hub has been certified as open source hardware by the Open Source Hardware Association under the OSHWA UID [CA000073](https://certification.oshwa.org/ca000073.html).
+
+<img src="Photos/certification-mark-CA000073-stacked.png" width = 250 alt="Open Source Hardware Certification Mark for Shrub Hub: CA000073"> 
+
+
 ---
 
 <!-- ABOUT MMC START -->
