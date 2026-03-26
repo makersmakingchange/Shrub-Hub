@@ -18,8 +18,6 @@ Any text that is currently holding a space / is an instruction for the person fi
 # Shrub Hub
 <!--- Should match the name of the GitHub repository. Choose something descriptive rather than whimsical.  --->
 
-> [!IMPORTANT]
-2026-02-20 This device is undergoing final user and maker validation testing before being added to the [Makers Making Change Assistive Device Library](https://www.makersmakingchange.com/assistive-devices). All of the information required to build the device is available in the repository, but it is not yet available to be requested as a volunteer maker build. 
 
 ## Overview
 <!--- A brief summary of the project. What it does, who it is for, how much it costs. --->
