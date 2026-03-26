@@ -36,7 +36,7 @@ The overall cost of materials is about $35 (plus $8 for component shipping).
 <img src="Photos/Shrub_Hub_Output_Table.png" height="500" alt="Table of Shrub Hub outputs.">
 
 ## Makers Making Change Assistive Device Library
-<MMCWebLink>
+https://www.makersmakingchange.com/product/shrub-hub-digital-switch-interface/01tJR000009NpUT
 
 ## How to Obtain the Device
 ### 1. Do-it-Yourself (DIY) or Do-it-Together (DIT)
@@ -45,10 +45,7 @@ This is an open-source assistive technology, so anyone is free to build it. All 
 
 ### 2. Request a build of this device
 
-> [!NOTE]
-This device will be available for request as a volunteer maker build after final user validation is complete.
-
-You may also submit a build request through the [Makers Making Change Assistive Device Library Listing](<MMCWebLink>) to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
+You may also submit a build request through the [Makers Making Change Assistive Device Library Listing](<https://www.makersmakingchange.com/product/shrub-hub-digital-switch-interface/01tJR000009NpUT>) to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
 
 ### 3. Build this device for someone else
 
